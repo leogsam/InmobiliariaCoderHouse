@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #00d4ff;
-  background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, rgba(57, 179, 81, 0.572164) 45%, #149532 100%); }
-  
+  background: #eaf585; }
   body h1 {
     font-size: 40px;
     color: brown;
@@ -20,6 +18,9 @@ body {
 
 section div {
   display: inline-block; }
+
+.divimagenes {
+  text-align: center; }
 
 /*Da estilo a "animacion1" en todo el sitio*/
 .animacion11 {
@@ -55,6 +56,9 @@ section div {
 /*Da estilo al div que informa los datos de oficina, telefono y horarios*/
 #datos {
   width: 100%; }
+
+.fondooficina {
+  background-color: black; }
 
 /*Da estilo a texto en nosotros*/
 .texto {
