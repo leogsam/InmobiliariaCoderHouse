@@ -14,12 +14,13 @@
 	animation-duration: 2ms;
 	animation-iteration-count: initial;
 }
-/*Da margen al logo en todas las paginas*/
+
 /*Fuentes*/
 @font-face{
     font-family: "Allura";
     src: url(../fonts/Allura-Regular.ttf);
 }
+/*Da margen al logo en todas las paginas*/
 #logo{
     font-family: "Allura";
     font-size: 40px;

@@ -6,7 +6,13 @@ body {
     font-size: 40px;
     color: #08d676;
     text-align: center;
-    text-decoration: underline; }
+    text-decoration: underline;
+    font-family: "chico";
+    display: inline-block;
+    margin-left: 550px; }
+  @media (max-width: 615px) {
+    body h1 {
+      margin: 0px; } }
   body h2 {
     font-family: sans-serif; }
   body h3 {
@@ -29,6 +35,11 @@ section div {
   .clientes {
     font-size: 47px; } }
 
+/*Fuentes*/
+@font-face {
+  font-family: "chico";
+  src: url(../fonts/Chico.ttf); }
+
 /*Da estilo a "animacion1" en todo el sitio*/
 .animacion11 {
   margin-top: 30px; }
@@ -45,12 +56,12 @@ section div {
   animation-duration: 2ms;
   animation-iteration-count: initial; }
 
-/*Da margen al logo en todas las paginas*/
 /*Fuentes*/
 @font-face {
   font-family: "Allura";
   src: url(../fonts/Allura-Regular.ttf); }
 
+/*Da margen al logo en todas las paginas*/
 #logo {
   font-family: "Allura";
   font-size: 40px;
