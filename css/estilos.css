@@ -4,7 +4,7 @@ body {
   background: #eaf585; }
   body h1 {
     font-size: 40px;
-    color: brown;
+    color: #08d676;
     text-align: center;
     text-decoration: underline; }
   body h2 {
@@ -21,6 +21,13 @@ section div {
 
 .divimagenes {
   text-align: center; }
+
+.clientes {
+  display: inline-block; }
+
+@media (min-width: 1199px) and (max-width: 1400px) {
+  .clientes {
+    font-size: 47px; } }
 
 /*Da estilo a "animacion1" en todo el sitio*/
 .animacion11 {
@@ -59,7 +66,8 @@ section div {
 
 @media (max-width: 1050px) {
   #logo {
-    width: 150px; } }
+    width: 150px;
+    font-weight: 400; } }
 
 /*Da estilo a Footer en todas las paginas*/
 #pie {

@@ -5,7 +5,7 @@ body{
     
     h1{
         font-size: 40px;
-        color: brown;
+        color: rgb(8, 214, 118);
         text-align: center;
         text-decoration: underline;
     }
@@ -30,3 +30,12 @@ section{
 .divimagenes{
     text-align: center;
 }
+.clientes{
+    display: inline-block;
+}
+@media(min-width:1199px) and (max-width:1400px){
+    .clientes{
+        font-size: 47px;
+    }
+}
+
