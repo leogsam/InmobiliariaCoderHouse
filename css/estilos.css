@@ -42,6 +42,23 @@ section div {
 .titulodestacado h1 {
   margin: 25px auto 0px 123px; }
 
+.titulodestacado p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.card-title {
+  color: chocolate;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.list-group-item {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center; }
+
+.card-link {
+  text-decoration: none;
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
 /*Da estilo a "animacion1" en todo el sitio*/
 .animacion11 {
   margin-top: 30px; }
