@@ -8,10 +8,9 @@ body{
         color: rgb(8, 214, 118);
         text-align: center;
         text-decoration: underline;
-        font-family: "chico";
-        display: inline-block;
-        margin-left: 550px;
-        
+        font-family: "among";
+        display: inline-block;  
+
     }
     @media(max-width: 615px){
         h1{
@@ -49,7 +48,9 @@ section{
 }
 /*Fuentes*/
 @font-face{
-    font-family: "chico";
-    src: url(../fonts/Chico.ttf);
+    font-family: "among";
+    src: url(../fonts/AMONG.otf);
 }
-
+.titulodestacado h1{
+    margin: 25px auto 0px 123px;
+}

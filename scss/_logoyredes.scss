@@ -4,9 +4,9 @@
 }
 /*Da estilo a iconos de redes sociales en todo el sitio*/
 .iconos{
-	position: fixed;
-	top: 0;
-	left: 0;
+	float: right;
+	margin-right: 150px;
+	margin-top: 15px;
 }
 /*Animacion del Logo*/
 .animate__bounceIn{
