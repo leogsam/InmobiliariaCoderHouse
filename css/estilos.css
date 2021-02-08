@@ -147,10 +147,16 @@ article h2 {
 article p {
   text-align: center; }
 
-.cuadronostros {
+.cuadronosotros {
   border: 1px solid black;
   width: 100%;
   height: 300px; }
+  .cuadronosotros img {
+    float: left; }
+  .cuadronosotros h2 {
+    margin-left: 50px; }
+  .cuadronosotros p {
+    text-align: center; }
 
 /*Da estilos a lista de propiedades*/
 .prop {
