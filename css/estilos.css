@@ -125,6 +125,33 @@ section div {
   margin: auto;
   margin-bottom: 60px; }
 
+.estilodefotoder {
+  display: block;
+  float: left;
+  border-radius: 10px;
+  clear: both; }
+
+.estilodefotoiz {
+  display: block;
+  float: right;
+  border-radius: 10px; }
+
+.nosotros article {
+  clear: both; }
+
+article h2 {
+  margin-left: 100px;
+  float: left;
+  margin-top: 40px; }
+
+article p {
+  text-align: center; }
+
+.cuadronostros {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px; }
+
 /*Da estilos a lista de propiedades*/
 .prop {
   padding: 15px;

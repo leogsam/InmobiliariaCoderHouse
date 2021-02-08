@@ -1,8 +1,41 @@
 /*Da estilo a texto en nosotros*/
-.texto{
+.texto {
 	border: solid 3px;
 	border-radius: 5px;
 	width: 50%;
 	margin: auto;
 	margin-bottom: 60px;
 }
+.estilodefotoder {
+	display: block;
+	float: left;
+	border-radius: 10px;
+	clear: both;
+}
+.estilodefotoiz {
+	display: block;
+	float: right;
+	border-radius: 10px;
+}
+.nosotros article {
+	clear: both;
+}
+article {
+	h2 {
+		margin-left: 100px;
+		float: left;
+		margin-top: 40px;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+.cuadronostros{
+	border: 1px solid black;
+	width: 100%;
+	height: 300px;
+}
+
+
+
