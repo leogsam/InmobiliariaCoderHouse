@@ -5,4 +5,10 @@
 }
 .inmueble{
     text-decoration: none;
+    color: chocolate;
+}
+.inmueble:hover{
+    color: rgb(8, 214, 118);
+    text-decoration: underline;
+    
 }

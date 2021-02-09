@@ -216,4 +216,38 @@ article p {
   margin-left: 150px; }
 
 .inmueble {
-  text-decoration: none; }
+  text-decoration: none;
+  color: chocolate; }
+
+.inmueble:hover {
+  color: #08d676;
+  text-decoration: underline; }
+
+@font-face {
+  font-family: "VarelaRound";
+  src: url(../fonts/VarelaRound-Regular.ttf); }
+
+.container_ficha {
+  margin: 40px 0px 40px 36px; }
+
+.fichapropiedad h1 {
+  color: chocolate;
+  font-family: 'VarelaRound', sans-serif; }
+
+.fichapropiedad h2 {
+  color: #cd8756;
+  font-size: 18px;
+  font-family: 'VarelaRound', sans-serif; }
+
+.fichapropiedad h3 {
+  color: black;
+  font-size: 15px;
+  font-family: 'VarelaRound', sans-serif; }
+
+.container_ficha .galeria .imagen {
+  border: solid 1px #ccc;
+  width: 200px;
+  height: 300px;
+  margin: 0px auto;
+  float: left;
+  border: 0px 15px 0px 15px; }
