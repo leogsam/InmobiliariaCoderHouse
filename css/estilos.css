@@ -152,30 +152,63 @@ article p {
   height: 300px; }
   .cuadronosotrosder img {
     float: left;
-    border-radius: 15px; }
+    border-radius: 15px;
+    width: 500px;
+    height: 300px; }
   .cuadronosotrosder h2 {
     margin-left: 50px;
-    margin-top: 10px;
-    text-align: center; }
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: underline; }
   .cuadronosotrosder p {
     text-align: center;
     padding: 10px;
-    margin: 25px; }
+    margin: 10px; }
 
 .cuadronosotrosiz {
   width: 100%;
   height: 300px; }
   .cuadronosotrosiz img {
     float: right;
-    border-radius: 15px; }
+    border-radius: 15px;
+    width: 500px;
+    height: 300px; }
   .cuadronosotrosiz h2 {
     margin-left: 50px;
-    margin-top: 10px;
-    text-align: center; }
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: underline; }
   .cuadronosotrosiz p {
     text-align: center;
     padding: 20px;
-    margin: 25px; }
+    margin: 10px;
+    margin-left: 20px; }
+
+@media (max-width: 992px) {
+  .cuadronosotrosder img {
+    width: 300px;
+    height: 150px; } }
+
+@media (max-width: 490px) {
+  .cuadronosotrosder p {
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 0; }
+  .cuadronosotrosder h2 {
+    font-size: 20px; } }
+
+@media (max-width: 992px) {
+  .cuadronosotrosiz img {
+    width: 300px;
+    height: 150px; } }
+
+@media (max-width: 490px) {
+  .cuadronosotrosiz p {
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 0; }
+  .cuadronosotrosiz h2 {
+    font-size: 20px; } }
 
 /*Da estilos a lista de propiedades*/
 .prop {
