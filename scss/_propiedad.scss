@@ -1,7 +1,7 @@
  /*Da estilos a lista de propiedades*/
 .prop{
     padding: 15px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 .inmueble{
     text-decoration: none;
@@ -11,4 +11,9 @@
     color: rgb(8, 214, 118);
     text-decoration: underline;
     
+}
+@media(max-width:450px){
+	.prop{
+		margin-left: 5px;
+	}
 }

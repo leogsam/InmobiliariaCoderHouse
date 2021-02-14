@@ -159,7 +159,8 @@ article p {
     margin-left: 50px;
     margin-top: 25px;
     text-align: center;
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: chocolate; }
   .cuadronosotrosder p {
     text-align: center;
     padding: 10px;
@@ -177,7 +178,8 @@ article p {
     margin-left: 50px;
     margin-top: 25px;
     text-align: center;
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: chocolate; }
   .cuadronosotrosiz p {
     text-align: center;
     padding: 20px;
@@ -213,7 +215,7 @@ article p {
 /*Da estilos a lista de propiedades*/
 .prop {
   padding: 15px;
-  margin-left: 150px; }
+  margin-left: 50px; }
 
 .inmueble {
   text-decoration: none;
@@ -222,6 +224,10 @@ article p {
 .inmueble:hover {
   color: #08d676;
   text-decoration: underline; }
+
+@media (max-width: 450px) {
+  .prop {
+    margin-left: 5px; } }
 
 @font-face {
   font-family: "VarelaRound";
