@@ -24,6 +24,13 @@
 	text-align: center;
 	padding-top: 60px;;
 }
+/*Da color y subrayado a los titulos*/
+.descripcion{
+	h2{
+		text-decoration: underline;
+		color: chocolate;
+	}
+}
 /*establece un media queries para que al bajar de 768px el texto con titulo y descripcion se posicione debajo de la fotografia*/
 @media(max-width:768px){
 	#layoutnosotrosend, #layoutnosotrosstart{
