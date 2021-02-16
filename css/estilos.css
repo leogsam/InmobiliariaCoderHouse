@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -117,100 +118,45 @@ section div {
 .fondooficina {
   background-color: black; }
 
-/*Da estilo a texto en nosotros*/
-.texto {
-  border: solid 3px;
-  border-radius: 5px;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 60px; }
-
-.estilodefotoder {
-  display: block;
-  float: left;
-  border-radius: 10px;
-  clear: both; }
-
-.estilodefotoiz {
-  display: block;
-  float: right;
-  border-radius: 10px; }
-
-.nosotros article {
-  clear: both; }
-
-article h2 {
-  margin-left: 100px;
-  float: left;
-  margin-top: 40px; }
-
-article p {
-  text-align: center; }
-
-.cuadronosotrosder {
-  width: 100%;
-  height: 300px; }
-  .cuadronosotrosder img {
-    float: left;
+/*da estilo al div que se establece sobre el margen izquierdo*/
+#layoutnosotrosstart {
+  display: flex;
+  flex-direction: row; }
+  #layoutnosotrosstart img {
     border-radius: 15px;
     width: 500px;
     height: 300px; }
-  .cuadronosotrosder h2 {
-    margin-left: 50px;
-    margin-top: 25px;
-    text-align: center;
-    text-decoration: underline;
-    color: chocolate; }
-  .cuadronosotrosder p {
-    text-align: center;
-    padding: 10px;
-    margin: 10px; }
 
-.cuadronosotrosiz {
-  width: 100%;
-  height: 300px; }
-  .cuadronosotrosiz img {
-    float: right;
+/*da estilo al div que se establece sobre el margen derecho*/
+#layoutnosotrosend {
+  display: flex;
+  flex-direction: row-reverse; }
+  #layoutnosotrosend img {
     border-radius: 15px;
     width: 500px;
-    height: 300px; }
-  .cuadronosotrosiz h2 {
-    margin-left: 50px;
-    margin-top: 25px;
-    text-align: center;
-    text-decoration: underline;
-    color: chocolate; }
-  .cuadronosotrosiz p {
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    margin-left: 20px; }
+    height: 300px;
+    float: right; }
 
+/*centra y padea el texto de la section que contiene titulo y descripcion de cada empleado*/
+#layoutnosotrosstart section.descripcion, #layoutnosotrosend section.descripcion {
+  text-align: center;
+  padding-top: 60px; }
+
+/*establece un media queries para que al bajar de 768px el texto con titulo y descripcion se posicione debajo de la fotografia*/
+@media (max-width: 768px) {
+  #layoutnosotrosend, #layoutnosotrosstart {
+    flex-direction: column; } }
+
+/*cambia tamaño de las imagenes al bajar de los 534px*/
+@media (max-width: 534px) {
+  #layoutnosotrosstart img, #layoutnosotrosend img {
+    width: 250px;
+    height: 120px; } }
+
+/*sube el texto de la section descripcion para que no quede desproporcionado al ahicar el width de pantalla*/
 @media (max-width: 992px) {
-  .cuadronosotrosder img {
-    width: 300px;
-    height: 150px; } }
-
-@media (max-width: 490px) {
-  .cuadronosotrosder p {
-    font-size: 12px;
-    margin-top: 0;
-    padding-top: 0; }
-  .cuadronosotrosder h2 {
-    font-size: 20px; } }
-
-@media (max-width: 992px) {
-  .cuadronosotrosiz img {
-    width: 300px;
-    height: 150px; } }
-
-@media (max-width: 490px) {
-  .cuadronosotrosiz p {
-    font-size: 12px;
-    margin-top: 0;
-    padding-top: 0; }
-  .cuadronosotrosiz h2 {
-    font-size: 20px; } }
+  #layoutnosotrosstart section.descripcion, #layoutnosotrosend section.descripcion {
+    padding-top: 0px; } }
 
 /*Da estilos a lista de propiedades*/
 .prop {
