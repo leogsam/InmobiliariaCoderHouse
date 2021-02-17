@@ -60,21 +60,11 @@ section div {
   color: chocolate;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
-/*Da estilo a "animacion1" en todo el sitio*/
-.animacion11 {
-  margin-top: 30px; }
-
 /*Da estilo a iconos de redes sociales en todo el sitio*/
 .iconos {
   float: right;
   margin-right: 150px;
   margin-top: 15px; }
-
-/*Animacion del Logo*/
-.animate__bounceIn {
-  animation: bounceIN;
-  animation-duration: 2ms;
-  animation-iteration-count: initial; }
 
 /*Fuentes*/
 @font-face {
@@ -104,7 +94,7 @@ section div {
 #pie {
   text-align: center;
   height: 30px;
-  background-color: grey;
+  background-color: #ccc;
   width: 100%; }
 
 /*Da estilo al formulario de contacto en "Contacto"*/
@@ -117,6 +107,22 @@ section div {
 
 .fondooficina {
   background-color: black; }
+
+.col-sm a {
+  font-family: "Allura";
+  font-size: 40px;
+  color: #ccc;
+  text-decoration: none; }
+
+.col-sm #titulo {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ccc;
+  vertical-align: middle; }
+
+.col-sm h4 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ccc;
+  vertical-align: middle; }
 
 /*da estilo al div que se establece sobre el margen izquierdo*/
 #layoutnosotrosstart {
