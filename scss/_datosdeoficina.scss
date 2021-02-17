@@ -2,9 +2,11 @@
 #datos{
     width: 100%;
 }
+/*Da color al fondo del div*/
 .fondooficina{
     background-color:black;
 }
+/*da estilos a logo en datos de oficina*/
 .col-sm{
     a{
         font-family: "Allura";
@@ -13,6 +15,7 @@
         text-decoration: none;
     }
 }
+/* da estilos a titulos en datos de oficina*/
 .col-sm{
     #titulo{
         font-family: 'Courier New', Courier, monospace;
@@ -20,6 +23,7 @@
         vertical-align:middle;
     }
 }
+/*da estilos a la descripcion en datos de oficina*/
 .col-sm{
     h4{
         font-family: 'Courier New', Courier, monospace;

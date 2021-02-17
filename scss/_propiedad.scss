@@ -3,15 +3,18 @@
     padding: 15px;
     margin-left: 50px;
 }
+/*Da estilo a la direccion de los inmuebles*/
 .inmueble{
     text-decoration: none;
     color: chocolate;
 }
+/*da estilos en hover a la direccion de los inmuebles*/
 .inmueble:hover{
     color: rgb(8, 214, 118);
     text-decoration: underline;
     
 }
+/*aplica media queries en ancho 450px y modifica el margin-left*/
 @media(max-width:450px){
 	.prop{
 		margin-left: 5px;

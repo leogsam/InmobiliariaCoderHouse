@@ -81,6 +81,7 @@ section div {
   text-decoration: none;
   margin-left: 120px; }
 
+/*Da estilo a logo en todas las paginas del sitio*/
 #logo a {
   text-decoration: none;
   color: #08d676; }
@@ -105,20 +106,24 @@ section div {
 #datos {
   width: 100%; }
 
+/*Da color al fondo del div*/
 .fondooficina {
   background-color: black; }
 
+/*da estilos a logo en datos de oficina*/
 .col-sm a {
   font-family: "Allura";
   font-size: 40px;
   color: #ccc;
   text-decoration: none; }
 
+/* da estilos a titulos en datos de oficina*/
 .col-sm #titulo {
   font-family: 'Courier New', Courier, monospace;
   color: #ccc;
   vertical-align: middle; }
 
+/*da estilos a la descripcion en datos de oficina*/
 .col-sm h4 {
   font-family: 'Courier New', Courier, monospace;
   color: #ccc;
@@ -174,14 +179,17 @@ section div {
   padding: 15px;
   margin-left: 50px; }
 
+/*Da estilo a la direccion de los inmuebles*/
 .inmueble {
   text-decoration: none;
   color: chocolate; }
 
+/*da estilos en hover a la direccion de los inmuebles*/
 .inmueble:hover {
   color: #08d676;
   text-decoration: underline; }
 
+/*aplica media queries en ancho 450px y modifica el margin-left*/
 @media (max-width: 450px) {
   .prop {
     margin-left: 5px; } }
