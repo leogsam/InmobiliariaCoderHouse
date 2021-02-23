@@ -25,18 +25,15 @@
     }
 }
 
-.container_ficha{
-    .galeria{
-        .imagen{
-        border: solid 1px #ccc;
-        width: 200px;
+.galeria{
+    margin: 20px 25px 40px 60px;
+    :first-child{
+        margin-left: 100px;
+    }
+    .imagen{
+        margin-left: 15px;
+        width: 300px;
         height: 300px;
-        margin: 0px auto;
-        float: left;
-        border: 0px 15px 0px 15px;
-        }
-        .descripcion{
-
-        }
+        border-radius: 15px;
     }
 }
